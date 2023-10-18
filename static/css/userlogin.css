@@ -1,0 +1,154 @@
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #4E8EB9;
+    min-height: 100vh;
+  }
+  
+  .brand-wrapper {
+    margin-top: 35px;
+    margin-left: 50px;
+  }
+  
+  .brand-wrapper h4 {
+    font-weight: 900;
+    color: #032D23;
+  }
+  @media (max-width: 422px) {
+    .brand-wrapper{
+      margin-left: 24px;
+    }
+  }
+  .login-card {
+    border: 0;
+    border-radius: 27.5px;
+    box-shadow: 0 10px 30px 0 rgba(172, 168, 168, 0.43);
+    overflow: hidden;
+  }
+  
+  .login-card-img {
+    border-radius: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  .login-card .card-body {
+    padding: 45px 90px;
+  }
+  
+  @media (max-width: 422px) {
+    .login-card .card-body {
+      padding: 35px 24px;
+    }
+  
+  }
+  
+  .login-card-description {
+    font-size: 21px;
+    color: #032D23;
+    font-weight: normal;
+    margin-bottom: 20px;
+  }
+  
+  form h1 {
+    color: #032D23;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .login-card form {
+    max-width: 326px;
+  }
+  
+  .login-card .form-control {
+    border: 1px solid #d5dae2;
+    padding: 15px 25px;
+    margin-bottom: 20px;
+    min-height: 45px;
+    font-size: 13px;
+    line-height: 15;
+    font-weight: normal;
+  }
+  
+  
+  .form-group {
+    text-align: left;
+    margin-bottom: 0px;
+    color: #032D23;
+  }
+  
+  .form-group label {
+    font-size: 14px;
+    margin-right: 100px;
+  }
+  @media (max-width: 422px) {
+    .form-group label{
+      margin-right: 85px;
+    }
+  }
+  .login-card .login-btn {
+    padding: 13px 20px 12px;
+    background-color: #032D23;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #fff;
+  }
+  
+  .login-card .login-btn:hover {
+    border: 1px solid #032D23;
+    background-color: transparent;
+    color: #032D23;
+  }
+  
+  .login-card .forgot-password-link {
+    font-size: 14px;
+    color: #032D23;
+    margin-bottom: 12px;
+  }
+  
+  .login-card-footer-text {
+    font-size: 15px;
+    margin-bottom: 60px;
+  }
+  
+  .regHere {
+    color: #AAA713;
+  }
+  
+  @media (max-width: 767px) {
+    .login-card-footer-text {
+      margin-bottom: 24px;
+    }
+  }
+  
+  .login-card-footer-nav {
+    margin-left: 50px;
+    margin-bottom: 30px;
+  }
+  
+  .login-card-footer-nav a {
+    font-size: 14px;
+    color: #032D23;
+  }
+  .login-card-footer-nav a span {
+    font-size: 14px;
+    color: #AAA713;
+  }
+  
+  @media (max-width: 422px) {
+    .login-card-footer-nav{
+      margin-left: 25px;
+    }
+  
+  }
+  .footer-link {
+    position: absolute;
+    bottom: 1rem;
+    text-align: center;
+    width: 100%;
+  }

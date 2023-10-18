@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>User Registration page</title>
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/css/UserRegis.css">
+  <link rel="stylesheet" href="/static/css/demo.css">
+  <link rel="stylesheet" href="/static/css/intlTelInput.css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&family=Poppins:wght@100;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="d-flex align-items-center min-vh-100 py-3 py-md-0">
+        <div class="container">
+          <div class="card login-card">
+            <div class="row no-gutters">
+              <div class="col-md-6">
+                <div class="brand-wrapper">
+                  <h4>PandaPlacement</h4>
+                </div>
+                <div class="card-body">
+                  <form action="#!">
+                    <h1>User Registration</h1>
+                    <div class="form-group">
+                        <label for="Country" class="sr-only">Country</label>
+                        <input type="text" name="Country" id="Country" class="form-control" placeholder="Country">
+                      </div>
+                      <div class="form-group">
+                        <label for="Mobile" class="sr-only">Mobile</label>
+                        <input type="tel" name="Mobile" id="Mobile" class="form-control" placeholder="Mobile">
+                      </div>
+                      <div class="form-group">
+                        <label for="Email" class="sr-only">Email</label>
+                        <input type="email" name="Email" id="Email" class="form-control" placeholder="Email">
+                      </div>
+                      <div class="form-group">
+                        <label for="FirstName" class="sr-only">First Name</label>
+                        <input type="text" name="FirstName" id="FirstName" class="form-control" placeholder="First Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="LastName" class="sr-only">Last Name</label>
+                        <input type="text" name="LastName" id="LastName" class="form-control" placeholder="Last Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="Password" class="sr-only">Password</label>
+                        <div class="input-group">
+                            <input type="password" name="Password" id="Password" class="form-control" placeholder="Password">
+                            <div class="input-group-append">
+                                <span class="eyeIcons" id="togglePassword" onclick="passwordInput()">
+                                    <i id="passwordHide" class="fa-regular fa-eye-slash"></i>
+                                    <i id="passwordUnhide" class="fa-regular fa-eye"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="Confirm Password" class="sr-only">Confirm Password</label>
+                        <div class="input-group">
+                            <input type="password" name="Confirm Password" id="ConfirmPassword" class="form-control" placeholder="Confirm Password">
+                            <div class="input-group-append">
+                                <span class="eyeIcons" id="toggleConfirmPassword" onclick="confirmPasswordInput()">
+                                    <i id="confirmPasswordHide" class="fa-regular fa-eye-slash"></i>
+                                    <i id="confirmPasswordUnhide" class="fa-regular fa-eye"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                      <input name="Register" id="regHere" class="btn btn-block login-btn" type="button" value="Register">
+                    </form>
+                    <p class="login-card-footer-text">Already have an account ? <a href="#!" class="SignIn">Sign In</a></p>
+                <nav class="login-card-footer-nav">
+                  <a href="#!">Featured By<span>@KAJConsultancy</span></a>
+                </nav>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <img src="/images/loginiage.png"  alt="login" class="login-card-img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="/static/js/UserRegis.js"></script>
+  <script src="/static/js/intlTelInput.js"></script>
+</body>
+</html>
+
+
+

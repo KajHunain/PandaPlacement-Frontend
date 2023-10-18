@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* .intro {
+    height: 100vh;
+  }
+  
+  @media (min-height: 300px) and (max-height: 450px) {
+    .intro {
+      height: auto;
+    }
+  }
+  .mask{
+    height: 100vh;
+  } */
+
+.gradient-custom {
+    background-color: #58b59d;
+    background-blend-mode: screen, color-dodge, overlay, difference, normal;
+}
+
+.Login-page-img{
+    background-image: url(/images/loginiage.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0 10px 10px 0;
+    height: 100vh;
+
+}
+
+.login {
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+  
+  /* @media (max-width: 991px) {
+    .Login-page-img{
+        height: 20rem;
+    }
+  }; */

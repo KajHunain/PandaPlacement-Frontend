@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Mansab-ExactJobs</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/static/css/exactjob.css">
+</head>
+
+<body>
+  <div id="overlay"></div>
+  <main>
+    <div class="wrapper d-flex align-items-stretch">
+      <nav id="sidebar" class="active hide">
+
+        <button type="button" id="sidebarCollapse" class="btn btn-lg">
+          <i class="fa fa-bars"></i>
+          <span class="sr-only">Toggle Menu</span>
+        </button>
+
+        <ul class="list-unstyled components mb-5" id="pages">
+          <li>
+            <a href="#"><span><img src="/Icons/layout_665060.png" alt="Dashboard"></span>Dashboard</a>
+          </li>
+          <li>
+            <a href="#"><span><img src="/Icons/laptop_10490149.png" alt="Post A Job"></span>Post A Job</a>
+          </li>
+          <li>
+            <a href="#"><span><img src="/icons/add-user_748137 (1).png " alt="Job"></span>Job</a>
+          </li>
+          <li>
+            <a href="#"><span><img src="/Icons/happy-client_6022200.png" alt="Hire An Expert"></span>Hire An Expert</a>
+          </li>
+          <li>
+            <a href="#"><span><img src="/Icons/find-option_7981600.png" alt="Candidates"></span>Candidates</a>
+          </li>
+          <li>
+            <a href="#"><span><img src="/Icons/loupe_751463.png" alt="Candidates"></span>Search Resumes</a>
+          </li>
+        </ul>
+      </nav>
+      <div id="content">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+
+            <button type="button" id="sidebarCollapse-md" class="btn ">
+              <i class="fa fa-bars fa-lg"></i>
+            </button>
+            <h3 class="Logo">PandaPlacement</h3>
+            <button class="btn d-inline-block d-lg-none" type="button" data-toggle="collapse"
+              data-target="#slideboxnavbarcontent" aria-controls="slideboxnavbarcontent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <i class="fa fa-bars fa-lg"></i>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="slideboxnavbarcontent">
+
+              <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Review</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Help</a>
+                </li>
+                <li class="nav-item hide-icons" id="notification">
+                  <a class="nav-link" href="#">Notification</a>
+                </li>
+                <li class="nav-item hide-icons" id="inbox">
+                  <a class="nav-link" href="#">Inbox</a>
+                </li>
+              </ul>
+              <div class="notifyIcon">
+                <span class="bell-icon"><a target="_blank" href="https://www.facebook.com"><i
+                      class="fa-solid fa-bell"></i></a></span>
+                <span class="envelope-icon"><a target="_blank" href="https://www.facebook.com"><i
+                      class="fa-solid fa-envelope"></i></a></span>
+              </div>
+
+              <a href="#" data-toggle="dropdown" class="dropdown-link nav-link" aria-haspopup="true"
+                aria-expanded="false">
+                Useremail<i class="fa-solid fa-caret-down ms-1"></i>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Profile</a>
+                <a class="dropdown-item" href="#">Change Password</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <nav class="secNav">
+          <div>
+            <span class="arrow-icon">
+              <a id="arricon" href="/template/jobs.html">
+                <i class="fa-solid fa-arrow-left"></i></a>
+            </span>
+            <span class="joblist">
+              <a class="navbar-brand" href="#">React Developer</a></span>
+          </div>
+          <form class="d-flex">
+            <div class="status">Status</div>
+            <span class="dropdown show">
+              <a class="dropdown-toggle job-btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Open</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+              </div>
+            </span>
+
+          </form>
+        </nav>
+        <div class="input">
+          <input type="text" id="inputs" class="form-control inputs"
+            placeholder="Search Applicant, Qualification, Field, Matches">
+          <button>Search</button>
+        </div>
+        <div>
+          <div class="slidetable-div" style="overflow: auto; ">
+            <table class="slidetable">
+              <thead class="tablehead">
+                <tr>
+                  <th></th>
+                  <th>Applicants</th>
+                  <th>Qualification</th>
+                  <th>Fields</th>
+                  <th>Matche</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody class="Slidetable-body">
+                <tr>
+                  <td><span>&#8942;</span></td>
+                  <td scope="row" class="job">Qasim Ali shah</td>
+                  <td>Bachelor</td>
+                  <td>Software Engineering</td>
+                  <td>5 Star</td>
+                  <td class="last-col"><a><i class="fa-solid fa-xmark"></i></a><a><i class="fa-solid fa-check"></i></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td><span>&#8942;</span></td>
+                  <td scope="row" class="job">Qasim Ali shah</td>
+                  <td>Bachelor</td>
+                  <td>Software Engineering</td>
+                  <td>5 Star</td>
+                  <td class="last-col"><a><i class="fa-solid fa-xmark"></i></a><a><i class="fa-solid fa-check"></i></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+        </div>
+      </div>
+    </div><!-- Content div -->
+    <footer class="footer">
+      <p>Featured By <span>@KAJConsultancy</span></p>
+      <div>
+    </footer>
+  </main>
+
+  <script src="/static/js/jquery.min.js"></script>
+  <script src="/static/js/popper.js"></script>
+  <script src="/static/js/bootstrap.min.js"></script>
+  <script src="/static/js/exactjob.js"></script>
+</body>
+
+</html>

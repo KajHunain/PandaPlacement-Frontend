@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mansab</title>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!-- section 1 -->
+    <main class="main-background">
+        <section class="main">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="nav-logo">
+                    <h1><a href="#" class="text-decoration-none">CompanyLogo</a></h1>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a href="#" class="nav-link text-decoration-none">Jobs</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-decoration-none">Clients</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-decoration-none">Contact</a></li>
+                    </ul>
+                    <button class="btn btn-light fs-5"><a class="text-decoration-none text-dark" href="Employerlogin.html">Apply
+                            Now</a></button>
+                    <button class="btn btn-light fs-5 ms-4"><a class="text-decoration-none text-dark" href="#">Create
+                            Jobs</a></button>
+                </div>
+            </nav>
+
+
+            <div class="caption text-center">
+                <h1 class="text-white mb-5">Your Job Search Starts Here!</h1>
+                <div class="mt-4 p-3">
+                    <div class="search-container bg-white">
+                        <form class="d-flex flex-wrap">
+                            <div class="d-flex">
+                                <i class="fa-solid fa-magnifying-glass fa-xl mt-4 me-2"></i><input
+                                    class="form-control me-2" type="search" placeholder="Job Title or Keyboard"
+                                    aria-label="Search">
+                            </div>
+                            <div class="d-flex">
+                                <i class="fa-solid fa-location-dot  l mt-4 me-2"></i><input class="form-control me-2"
+                                    type="search" placeholder="search City, State or Remote" aria-label="Search More">
+                            </div>
+                            <button class="btn rounded-pill" type="button">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+        <!-- section 2 carousel;-->
+        <section class="carousel-background">
+            <div class="container mb-4 ">
+                <div class="row">
+                    <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel"
+                        data-interval="1000">
+                        <div class="MultiCarousel-inner">
+                            <div class="item">
+                                <div class="pad15">
+                                    <a href="#">
+                                        <img src="/images/hidden-fedex-arrow.jpg" class="img-responsive caro-img">
+                                    </a>
+                                    <p>FEDEX</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <a href="#">
+                                        <img src="/images/cisco-300x171.jpg" width="130px"
+                                            class="img-responsive caro-img">
+                                    </a>
+                                    <p class="fs-">Company Name</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <a href="#">
+                                        <img src="/images/amazon-300x78.jpg" class="img-responsive caro-img p-auto">
+                                    </a>
+                                    <p>Company Name</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15 text-center">
+                                    <a href="#">
+                                        <img src="/images/adidas-300x207.jpg" width="100px"
+                                            class="img-responsive caro-img">
+                                    </a>
+                                    <p>Company Name</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <a href="#">
+                                        <img src="/images/amazon-300x78.jpg" class="img-responsive caro-img">
+                                    </a>
+                                    <p>Company Name</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15 text-center">
+                                    <a href="#">
+                                        <img src="/images/adidas-300x207.jpg" width="100px"
+                                            class="img-responsive caro-img">
+                                    </a>
+                                    <p>Company Name</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <a href="#">
+                                        <img src="/images/amazon-300x78.jpg" class="img-responsive caro-img">
+                                    </a>
+                                    <p>Company Name</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15 text-center">
+                                    <a href="#">
+                                        <img src="/images/adidas-300x207.jpg" width="100px"
+                                            class="img-responsive caro-img">
+                                    </a>
+                                    <p>Company Name</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn btn-primary leftLst"><i class="fas fa-chevron-left"></i></div>
+                        <div class="btn btn-primary rightLst"><i class="fas fa-chevron-right"></i></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section 3 (featured jobs) -->
+        <div class="sec3-heading mb-5 bg-white text-center p-3">
+            <h2>FEATURED JOBS</h2>
+        </div>
+        <section class="jobs-banner container my-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="bg-white rounded p-4 p-md-5 h-100 shadow-sm">
+                        <div class="row mb-4">
+                            <div class="col-6">
+                                <h2 class="mb-0">Rocket Engineer</h2>
+                                <h3 class="text-muted">Stellar Aerospace</h3>
+                            </div>
+                            <div class="col-6 text-end ">
+                                <button class="btn btn-primary rounded-pill px-4 py-2 fs-5">Apply Now</button>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-6 d-flex align-items-center">
+                                <i class="map-icon fas fa-map-marker-alt"></i>
+                                <h3 class="mb-0">Loc: Space Alpha</h3>
+                            </div>
+                            <div class="col-6 d-flex align-items-center">
+                                <i class="clock-icon fa-solid fa-clock-rotate-left me-"></i>
+                                <h3 class="mb-0">Type: Full Time</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 d-flex align-items-center">
+                                <i class="cale-icon fa-solid fa-calendar-days"></i>
+                                <h3 class="mb-0">Date: 22 Aug 2023</h3>
+                            </div>
+                            <div class="col-6 d-flex align-items-center">
+                                <i class="doller-icon fa-solid fa-dollar-sign"></i>
+                                <h3 class="mb-0">Salary: $90,000</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4 mt-md-0">
+                    <div class="bg-white rounded p-4 p-md-5 h-100 shadow-sm">
+                        <div class="row mb-4">
+                            <div class="col-6">
+                                <h2 class="mb-0"> Satellite Engineer</h2>
+                                <h3 class="text-muted"> Celestial Technologies</h3>
+                            </div>
+                            <div class="col-6 text-end">
+                                <button class="btn btn-primary rounded-pill px-4 py-2 fs-5">Apply Now</button>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-6 d-flex align-items-center">
+                                <i class="map-icon fas fa-map-marker-alt"></i>
+                                <h3 class="mb-0">Loc: Star Beta</h3>
+                            </div>
+                            <div class="col-6 d-flex align-items-center">
+                                <i class="clock-icon fa-solid fa-clock-rotate-left"></i>
+                                <h3 class="mb-0">Type: Remote</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 d-flex align-items-center">
+                                <i class="cale-icon fa-solid fa-calendar-days"></i>
+                                <h3 class="mb-0">Date: 25 Aug 2023</h3>
+                            </div>
+                            <div class="col-6 d-flex align-items-center">
+                                <i class="doller-icon fa-solid fa-dollar-sign"></i>
+                                <h3 class="mb-0">Salary: $80,000</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- section 4 (people Review) -->
+        <div class="sec4-heading mb-5 bg-white text-center p-3">
+            <h2>PEOPLE REVIEW ABOUT ROZAB</h2>
+        </div>
+        <section class="Review-box container mb-3">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="Review rounded mb-3">
+                        <div class="review-img d-flex align-items-center">
+                            <img src="/images/profile picture.png" width="50px" class="me-5">
+                            <h2 class="text-end">Qasim A.</h2>
+                        </div>
+                        <div class="review-text pt-3 pb-5">
+                            <p class="mb-0">Phil really made it feel like someone else was taking this job search as
+                                seriously as I was.</p>
+                        </div>
+                    </div>
+                    <div class="Review rounded mb-3">
+                        <div class="review-img d-flex align-items-center">
+                            <img src="/images/profile picture.png" width="50px" class="me-5">
+                            <h2 class="text-end">Muhid K.</h2>
+                        </div>
+                        <div class="review-text pt-5">
+                            <p>Phil really made it feel like someone else was taking this job search as seriously as I
+                                was.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="review-banner">
+                        <img src="/images/review banner.png" width="100%" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- footer -->
+        <footer class="page-footer font-small indigo mt-5">
+
+            <!-- Footer Links -->
+            <div class="container text-center text-md-left">
+
+                <!-- Grid row -->
+                <div class="row">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+
+                        <!-- Links -->
+                        <h2 class="font-weight-bold text-uppercase mt-3 mb-4">Trending Job Titles</h2>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">Sterile Processing Technician</a>
+                            </li>
+                            <li>
+                                <a href="#!">Chaplain</a>
+                            </li>
+                            <li>
+                                <a href="#!">Office Rn</a>
+                            </li>
+                            <li>
+                                <a href="#!">Grant Writer</a>
+                            </li>
+                            <li>
+                                <a href="#!">Aws Solution Architect</a>
+                            </li>
+                            <li>
+                                <a href="#!">Grocery Shopper</a>
+                            </li>
+                            <li>
+                                <a href="#!">Gunsmith</a>
+                            </li>
+                            <li>
+                                <a href="#!">Nurse Practitioner</a>
+                            </li>
+                            <li>
+                                <a href="#!"> Conditioning Coach</a>
+                            </li>
+                            <li>
+                                <a href="#!">Mri Technologist</a>
+                            </li>
+                            <li>
+                                <a href="#!">Pipeline Welder</a>
+                            <li>
+                                <a href="#!">See More</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+
+                        <!-- Links -->
+                        <h2 class="font-weight-bold text-uppercase mt-3 mb-4">Trending Job Types</h2>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">Locum</a>
+                            </li>
+                            <li>
+                                <a href="#!">Piece Rate</a>
+                            </li>
+                            <li>
+                                <a href="#!">Online</a>
+                            </li>
+                            <li>
+                                <a href="#!">Contractual</a>
+                            </li>
+                            <li>
+                                <a href="#!">Vice President</a>
+                            </li>
+                            <li>
+                                <a href="#!">Head</a>
+                            </li>
+                            <li>
+                                <a href="#!">Before School</a>
+                            </li>
+                            <li>
+                                <a href="#!">Temp</a>
+                            </li>
+                            <li>
+                                <a href="#!">3Rd Shift</a>
+                            </li>
+                            <li>
+                                <a href="#!">Live In</a>
+                            </li>
+                            <li>
+                                <a href="#!">Commission</a>
+                            </li>
+                            <li>
+                                <a href="#!">See More</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+
+                        <!-- Links -->
+                        <h2 class="font-weight-bold text-uppercase mt-3 mb-4">Trending Cities</h2>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">Little Rock</a>
+                            </li>
+                            <li>
+                                <a href="#!">San Jose</a>
+                            </li>
+                            <li>
+                                <a href="#!">McAllen</a>
+                            </li>
+                            <li>
+                                <a href="#!">Harrisburg</a>
+                            </li>
+                            <li>
+                                <a href="#!">Honolulu</a>
+                            </li>
+                            <li>
+                                <a href="#!">Minneapolis</a>
+                            </li>
+                            <li>
+                                <a href="#!">Kansas City</a>
+                            </li>
+                            <li>
+                                <a href="#!">Fort Worth</a>
+                            </li>
+                            <li>
+                                <a href="#!">Orlando</a>
+                            </li>
+                            <li>
+                                <a href="#!">Buffalo</a>
+                            </li>
+                            <li>
+                                <a href="#!">Cape Coral</a>
+                            </li>
+                            <li>
+                                <a href="#!">See More</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+
+                        <!-- Links -->
+                        <h2 class="font-weight-bold text-uppercase mt-3 mb-4">Trending Categories</h2>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">Beverage Cart</a>
+                            </li>
+                            <li>
+                                <a href="#!">Sports</a>
+                            </li>
+                            <li>
+                                <a href="#!">Venture Capital</a>
+                            </li>
+                            <li>
+                                <a href="#!">Oil Field</a>
+                            </li>
+                            <li>
+                                <a href="#!">Sports</a>
+                            </li>
+                            <li>
+                                <a href="#!">Telecommunications</a>
+                            </li>
+                            <li>
+                                <a href="#!">English Degree</a>
+                            </li>
+                            <li>
+                                <a href="#!">Biostatistics</a>
+                            </li>
+                            <li>
+                                <a href="#!">Radio</a>
+                            </li>
+                            <li>
+                                <a href="#!">Media</a>
+                            </li>
+                            <li>
+                                <a href="#!">Disaster Relief</a>
+                            </li>
+                            <li>
+                                <a href="#!">Football Operations</a>
+                            </li>
+                            <li>
+                                <a href="#!">See More</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+
+            </div>
+            <!-- Footer Links -->
+        </footer>
+        <!-- Footer -->
+
+
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row p-4">
+                <div class="col-6">
+                    <h2>Copyright © 2023 Rozab. All rights reserved.</h2>
+                </div>
+                <div class="col-6 text-end">
+                    <h2>
+                        About Rozab Privacy Policy Disclaimer
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script> -->
+        
+    <script type="text/javascript" src="/static/js/app.js"></script>
+</body>
+
+</html>

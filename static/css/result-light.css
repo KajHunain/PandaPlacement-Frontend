@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    background-image: url(images/656670.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.nav-logo h2{
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar {
+    border: 1px solid #414141;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #f4b400;
+}
+
+.nav-buttons button {
+    margin-left: 10px;
+}
+
+.btn{
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 1s ease;
+}
+
+.btn{
+    background-color: #fff;
+    color: #333;
+}
+
+.caption{
+    position: relative;
+    top: 220px;
+}
+.caption input{
+    border: none;
+}
+.Search-btn{
+    background-color: #199A7C;
+    letter-spacing: 3px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 576px) {
+    .search-bar {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .search-bar i {
+        margin: 10px 0;
+    }
+
+    .search-bar input[type="text"] {
+        margin: 5px 0;
+        width: 100%;
+    }
+}
+
+.carousel-box{
+    border: 1px solid #000;
+    padding: 10px 25px;
+}
+.carousel-img{
+    border: 1px solid #000;
+    padding: 10;
+}
+.contain{
+    margin-left: 90px;
+    margin-right: 90px;
+}
